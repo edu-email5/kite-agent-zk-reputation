@@ -1,0 +1,34 @@
+{
+  "name": "@edu-email5/kite-agent-zk-reputation",
+  "version": "1.0.0",
+  "description": "Zero-Knowledge Agent Reputation & Skill Attestation Engine for Autonomous Swarms on Kite Chain",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "lint": "eslint \"src/**/*.ts\""
+  },
+  "keywords": [
+    "kiteai",
+    "zk-snark",
+    "zero-knowledge",
+    "reputation-engine",
+    "autonomous-agents",
+    "x402",
+    "web3"
+  ],
+  "author": "edu-email5",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "viem": "^2.17.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.3",
+    "vitest": "^2.0.0"
+  }
+}
